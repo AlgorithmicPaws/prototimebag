@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Prototipo de Contador de Tiempo</title>
+  <script src="script.js"></script>
+
+  <!-- Agrega enlaces a tus archivos de CSS y JavaScript aquí -->
+</head>
+<body>
+  <header>
+    <h1>Prototipo de Contador de Tiempo</h1>
+  </header>
+
+  <main>
+    <form>
+      <label for="tiempoPlanificado">Tiempo planificado:</label>
+      <input type="text" id="tiempoPlanificado" placeholder="HH:MM:SS">
+
+      <label for="bolsaTiempo">Bolsa de tiempo disponible:</label>
+      <input type="text" id="bolsaTiempo" placeholder="HH:MM:SS">
+
+      <button type="button" id="startButton">Iniciar contador</button>
+    </form>
+
+    <div id="contador">
+      <h2>Contador regresivo</h2>
+      <p id="contadorValue">00:00:00</p>
+    </div>
+
+    <div id="bolsaTiempoRestante">
+      <h2>Bolsa de tiempo disponible</h2>
+      <p id="bolsaTiempoValue">00:00:00</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2023 Tu Empresa</p>
+  </footer>
+
+  <!-- Agrega tus enlaces a archivos de JavaScript aquí -->
+
+</body>
+</html>
